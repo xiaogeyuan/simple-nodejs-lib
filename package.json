@@ -1,0 +1,35 @@
+{
+  "name": "simple-calculator-2",
+  "description": "Simple Calculator",
+  "author": "WD40 <screwdriver-test-builds@yahoo-inc.com>",
+  "version": "1.0.8",
+  "contributors": [
+    {
+      "name": "St. John Johnson",
+      "email": "stjohn@yahoo-inc.com"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "yuitest": "*",
+    "ytestrunner": "*",
+    "jslint": "*"
+  },
+  "scripts": {
+    "test": "ytestrunner --coverage"
+  },
+  "repository" : {
+    "type": "git",
+    "url": "git://git.corp.yahoo.com/cocktails-screwdriver-testapps/simple-node-lib.git"
+  },
+  "yahoo": {
+    "bugzilla": {
+      "product": "screwdriver",
+      "component": "General"
+    },
+    "custodian": {
+      "email": "screwdriver-test-builds@yahoo-inc.com",
+      "url": "https://git.corp.yahoo.com/cocktails-screwdriver-testapps/simple-node-lib"
+    }
+  }
+}
